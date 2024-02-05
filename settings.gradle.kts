@@ -16,3 +16,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "WeatherApp"
 include(":app")
+include(":core:localStorage")
+include(":core:session")
+include(":core:utilities")
+

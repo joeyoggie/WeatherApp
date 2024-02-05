@@ -66,5 +66,19 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:session"))
+    implementation(project(":core:utilities"))
+    implementation(project(":features:location"))
+    implementation(project(":features:weather"))
+    implementation(Dependencies.Android.libs)
+    implementation(Dependencies.Ktor.libs)
+    implementation(Dependencies.Koin.android)
+    implementation(Dependencies.Koin.compose)
 
+    platformImplementation(Dependencies.Android.firebaseBom)
+    ksp(Dependencies.Android.composeDestinationsKsp)
+
+    testImplementation(Dependencies.Android.unitTesting)
+    androidTestImplementation(Dependencies.Android.androidTesting)
+    debugImplementation(Dependencies.Android.debugImplement)
 }

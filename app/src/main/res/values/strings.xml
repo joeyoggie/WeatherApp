@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <!--Home-->
+    <string name="search">Search for a city</string>
+    <string name="showing_results_for">Showing Results for:</string>
+    <string name="temp_high">H: %s</string>
+    <string name="temp_low">L: %s</string>
+    <string name="feels_like">Feels like: %s</string>
+    <string name="wind_speed">Wind Speed: %s</string>
+    <string name="humidity">Humidity: %s</string>
+    <string name="rain">Rain: %s</string>
+
+    <!--Permissions-->
+    <string name="location_permission_title">Location Permissions</string>
+    <string name="location_permission_message">WeatherApp requires location permissions in order to get your current location. Please allow location permissions to continue getting accurate weather for your location.</string>
+
+    <!--Errors-->
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="general_error_message">An unknown error has occurred, please try again later.</string>
+
+</resources>
